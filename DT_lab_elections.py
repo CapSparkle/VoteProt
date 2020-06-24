@@ -160,7 +160,7 @@ def illegal_ballot_caster(election):
 
 if __name__ == "__main__":
 
-    Candidates = [candidate("Vladimir Putin the 'Molodec!'", 0), candidate("Vladimir Jirinovsky the 'Jirik'", 1), candidate("Alexey Navalny the 'blat'", 2), candidate("Evegeniy Ponasenkov the 'Geniy!'", 3)]
+    Candidates = [candidate("Vladimir Putin the 'Molodec!'", 0), candidate("Vladimir Jirinovsky the 'Boje, tsarya hrani!'", 1), candidate("Alexey Navalny the 'blat'", 2), candidate("Evegeniy Ponasenkov the 'Geniy!'", 3)]
     Taillers = [lab_tailler() for i in range(5)] 
     Voters = [lab_voter() for i in range(100)]
     
